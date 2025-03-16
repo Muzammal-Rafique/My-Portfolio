@@ -7,7 +7,9 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import EnhancedPortfolioCard from "./components/enhanced-portfolio-card";
 import { Route, Routes } from "react-router-dom";
+
 
 export default function App() {
   const [isOnePage, setIsOnePage] = useState(false); // Toggle state
@@ -34,6 +36,7 @@ export default function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<EnhancedPortfolioCard />} />
         </Routes>
       )}
     </>
