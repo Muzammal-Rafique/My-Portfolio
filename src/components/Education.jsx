@@ -16,7 +16,7 @@ const EducationSection = () => {
       school: "Govt. Graduate University Faislabad",
       mascot: "📘",
       year: "2019-2023",
-      achievements: ["GPA: 4.67", "Subject: IT"],
+      achievements: ["GPA: 3.67", "Subject: IT"],
       skills: ["Programming", "DSA", "DB", "Web Technologies"],
       description:
         "BS in Information Technology graduate with a wealth of knowledge in computing technology",
