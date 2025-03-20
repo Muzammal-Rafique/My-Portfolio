@@ -120,7 +120,7 @@ export default function EnhancedPortfolioCard() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}>
               <a 
-                  href="https://drive.google.com/file/d/17uXUYIL5oMyHqNaMHKpSpP1OcuXW1Lrz/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1qWt5sxHHqZhNIcwPuXudd68rCdOY3tIz/view?usp=sharing"
               >
                 <Button
                   className="mt-6 bg-gradient-to-r from-[#2DD4BF] to-[#38BDF8] hover:from-[#2DD4BF]/90 hover:to-[#38BDF8]/90 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition-all duration-300 hover:scale-105">
