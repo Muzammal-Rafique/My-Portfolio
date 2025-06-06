@@ -48,9 +48,6 @@ You will need to download **Git** and **Node** to run this project.
 1. Click the **Fork** button at the top-right corner of the page to create your own copy of the repository.
 2. After forking, open your terminal and run the following commands to clone the repo:
 
-  ```bash
-  git clone https://github.com/seraprogrammer/portfolio.git
-  ```
 Navigate to the Project Directory 📂
 Once the repository is cloned, change your directory to the project folder:
 ```bash
