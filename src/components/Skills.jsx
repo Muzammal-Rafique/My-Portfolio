@@ -5,6 +5,8 @@ import { Code2, Database, Cpu } from "lucide-react";
 import {
   FaReact,
   FaNodeJs,
+  FaGitAlt,
+  FaGithub,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -17,6 +19,9 @@ import {
   SiFirebase,
   SiVercel,
   SiVite,
+  SiExpress,
+  SiNestjs,
+  SiJira,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
@@ -93,6 +98,14 @@ const SkillsSection = () => {
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
         {
+          name: "Express js",
+          icon: <SiExpress className="w-4 h-4 text-[#68A063]" />,
+        },
+        {
+          name: "Nest js",
+          icon: <SiNestjs className="w-4 h-4 text-[#E0234E]" />,
+        },
+        {
           name: "PostgreSQL",
           icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
         },
@@ -118,6 +131,18 @@ const SkillsSection = () => {
         {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
+        },
+        {
+          name: "Git",
+          icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" />,
+        },
+        {
+          name: "Github",
+          icon: <FaGithub className="w-4 h-4 text-[#181717]" />,
+        },
+        {
+          name: "Jira",
+          icon: <SiJira className="w-4 h-4 text-[#0052CC]" />,
         },
         {
           name: "Webpack",
